@@ -1,0 +1,22 @@
+def check_list_parity():
+    # 1. Define the list of numbers (The given list)
+    number_list = [15, 22, 37, 40, 5, 88, 93, 100]
+    
+    print("--- Checking Odd and Even Numbers in the List ---")
+    print(f"The list is: {number_list}")
+    print("-------------------------------------------------")
+    
+    # 2. Iterate through each number in the list
+    for number in number_list:
+        
+        # 3. Check if the number is Even (remainder is 0 when divided by 2)
+        if number % 2 == 0:
+            print(f"Number {number}: is EVEN")
+            
+        # 4. If not Even, it must be Odd
+        else:
+            print(f"Number {number}: is ODD")
+
+# Execute the function
+if __name__ == "__main__":
+    check_list_parity()

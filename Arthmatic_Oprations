@@ -1,0 +1,14 @@
+#addition
+num1=50
+num2=20
+
+print(f"the addition of {num1} and {num2} is {num1+num2}")
+
+#subtraction
+print(f"the subtraction of {num1} and {num2} is {num1-num2}")
+
+#multiplication
+print(f"the multiplication of {num1} and {num2} is {num1*num2}")
+
+#division
+print(f"the division of {num1} and {num2} is {num1/num2}")  

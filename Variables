@@ -1,0 +1,5 @@
+#variables
+name="Rohit"
+age="45"
+
+print(f"hello my name is {name} and my age is {age}")
